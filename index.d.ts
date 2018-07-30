@@ -3,7 +3,7 @@ import {TextStyle,StyleProp,ViewStyle} from 'react-native';
 import RootSiblings from 'react-native-root-siblings';
 
 declare module "react-native-root-toast" {
-    interface ToastOptions {
+    export interface ToastOptions {
         duration?: number
         visible?: boolean,
         position?: number,
